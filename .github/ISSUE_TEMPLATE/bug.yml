@@ -1,0 +1,40 @@
+name: 🐛 Bug Report
+description: Reportar un bug a arreglar
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: epica
+    attributes:
+      label: Épica relacionada
+      description: A que funcionalidad pertenece
+      options:
+        - Usuarios
+        - Perfil
+        - Catálogo
+        - Carrito
+        - Checkout y Órdenes
+        - Vendedor
+        - Administración
+        - Métricas
+        - Reviews
+        - Wishlist
+        - Notificaciones
+        - Recomendaciones
+    validations:
+      required: true
+
+  - type: textarea
+    id: descripcion
+    attributes:
+      label: Descripción del bug
+    validations:
+      required: true
+
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Contexto adicional
+      description: Logs, screenshots, etc
+    validations:
+      required: false
