@@ -14,18 +14,11 @@ body:
       label: Épica
       description: ¿A qué épica pertenece?
       options:
-        - Usuarios
-        - Perfil
-        - Catálogo
-        - Carrito
-        - Checkout y Órdenes
-        - Vendedor
-        - Administración
-        - Métricas
-        - Reviews
-        - Wishlist
-        - Notificaciones
-        - Recomendaciones
+        - Talla, Peso y Georreferenciación
+        - Valores de Hierro en Sangre
+        - Nutrir
+        - Dashboard
+        - Aplicacion Mobile
     validations:
       required: true
 
