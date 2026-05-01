@@ -1,6 +1,6 @@
 # Trabajo Profesional — Ing para la Alimentación
 
-Trabajo Profesional de la Ingeniería Informática (2026 1C).
+Trabajo Profesional de Ingeniería Informática (2026 1C).
 
 ## Grupo N°193
 
