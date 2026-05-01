@@ -1,0 +1,85 @@
+name: 📖 User Story
+description: Historia de usuario del proyecto Bazaar
+title: "[US] "
+labels: ["user-story"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Completa todos los campos obligatorios 
+
+  - type: dropdown
+    id: epica
+    attributes:
+      label: Épica
+      description: ¿A qué épica pertenece?
+      options:
+        - Usuarios
+        - Perfil
+        - Catálogo
+        - Carrito
+        - Checkout y Órdenes
+        - Vendedor
+        - Administración
+        - Métricas
+        - Reviews
+        - Wishlist
+        - Notificaciones
+        - Recomendaciones
+    validations:
+      required: true
+
+  - type: textarea
+    id: descripcion
+    attributes:
+      label: Descripción
+      placeholder: "Como [rol] quiero [acción] para [beneficio]"
+    validations:
+      required: true
+
+  - type: textarea
+    id: criterios
+    attributes:
+      label: Criterios de aceptación
+      description: Completá cada criterio de aceptación
+      value: |
+        **CA 1:**
+        - [ ] CA 1 detallado
+
+        **CA 2:**
+        - [ ] CA 2 detallado
+        
+    validations:
+      required: true
+
+  - type: dropdown
+    id: puntos
+    attributes:
+      label: Puntos de historia
+      options:
+        - "1"
+        - "2"
+        - "3"
+        - "5"
+        - "8"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Tipo de historia
+      options:
+        - ⭐ Obligatoria
+        - ✨ Optativa
+    validations:
+      required: true
+
+  - type: textarea
+    id: notas
+    attributes:
+      label: Notas
+      description: Decisiones de implementación, ADRs relacionados, dependencias con otros servicios
+      placeholder: "Opcional - Notas"
+    validations:
+      required: false
