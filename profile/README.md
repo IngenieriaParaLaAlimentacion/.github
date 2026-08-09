@@ -16,3 +16,6 @@ Trabajo Profesional de Ingeniería Informática (2026 1C).
 | Repositorios | Descripción |
 |------|-------------|
 | `.github` | Este repo — configuración central |
+| `backend` | API REST (FastAPI, PostgreSQL) |
+| `app_mobile` | App móvil Compose Multiplatform (Android + iOS) |
+| `backoffice` | Panel web de gestión (Next.js) |
